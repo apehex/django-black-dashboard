@@ -1,3 +1,6 @@
+# local env
+.env
+
 # byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -13,6 +16,7 @@ __pycache__/
 
 # venv
 env
+poetry.lock
 venv
 
 # other
@@ -21,8 +25,9 @@ venv
 # javascript
 package-lock.json
 
+# temp
 staticfiles/*
-!staticfiles/.gitkeep 
+!staticfiles/.gitkeep
 .vscode/symbols.json
 
 apps/static/assets/node_modules

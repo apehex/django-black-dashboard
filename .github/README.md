@@ -8,7 +8,7 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 
 - `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
-- UI: **[Black Dashboard](https://bit.ly/2L0W6Z7)** v1.0.1 provided by *Creative-Tim* 
+- UI: **[Black Dashboard](https://bit.ly/2L0W6Z7)** v1.0.1 provided by *Creative-Tim*
 - UI-Ready app, `SQLite Database`, Django Native ORM
 - `Session-Based authentication`, Forms validation
 - `Deployment`: **Docker**, Gunicorn / Nginx, HEROKU
@@ -18,7 +18,7 @@ Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django)** g
 
 > Links
 
-- 👉 [Django Dashboard Black](https://appseed.us/admin-dashboards/django-dashboard-black) - product page 
+- 👉 [Django Dashboard Black](https://appseed.us/admin-dashboards/django-dashboard-black) - product page
 - 👉 [Django Dashboard Black](https://django-black-dashboard.appseed-srv1.com/) - LIVE deployment
 - 👉 [Django Dashboard Black](https://docs.appseed.us/products/django-dashboards/black-dashboard) - product documentation
 
@@ -36,14 +36,14 @@ $ cd django-black-dashboard
 > Start the app in Docker
 
 ```bash
-$ docker-compose up --build 
+$ docker-compose up --build
 ```
 
 Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-![Django Dashboard Black - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-black/master/media/django-dashboard-black-intro.gif)
+![Django Dashboard Black - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-black/master/.github/media/django-dashboard-black-intro.gif)
 
 <br />
 
@@ -61,7 +61,7 @@ $
 $ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv env
 $ # .\env\Scripts\activate
-$ 
+$
 $ # Install modules
 $ # SQLIte version
 $ pip3 install -r requirements.txt
@@ -97,12 +97,12 @@ The project is coded using a simple and intuitive structure presented below:
    |    |
    |    |-- home/                          # A simple app that serve HTML files
    |    |    |-- views.py                  # Serve HTML pages for authenticated users
-   |    |    |-- urls.py                   # Define some super simple routes  
+   |    |    |-- urls.py                   # Define some super simple routes
    |    |
    |    |-- authentication/                # Handles auth routes (login and register)
-   |    |    |-- urls.py                   # Define authentication routes  
-   |    |    |-- views.py                  # Handles login and registration  
-   |    |    |-- forms.py                  # Define auth forms (login and register) 
+   |    |    |-- urls.py                   # Define authentication routes
+   |    |    |-- views.py                  # Handles login and registration
+   |    |    |-- forms.py                  # Define auth forms (login and register)
    |    |
    |    |-- static/
    |    |    |-- <css, JS, images>         # CSS files, Javascripts files
@@ -155,9 +155,9 @@ To recompile SCSS files, follow this setup:
 **Step #1** - Install tools
 
 - [NodeJS](https://nodejs.org/en/) 12.x or higher
-- [Gulp](https://gulpjs.com/) - globally 
+- [Gulp](https://gulpjs.com/) - globally
     - `npm install -g gulp-cli`
-- [Yarn](https://yarnpkg.com/) (optional) 
+- [Yarn](https://yarnpkg.com/) (optional)
 
 <br />
 
@@ -179,7 +179,7 @@ $ yarn
 
 <br />
 
-**Step #4** - Edit & Recompile SCSS files 
+**Step #4** - Edit & Recompile SCSS files
 
 ```bash
 $ gulp scss
@@ -187,7 +187,7 @@ $ gulp scss
 
 The generated file is saved in `static/assets/css` directory.
 
-<br /> 
+<br />
 
 ## Deployment
 
